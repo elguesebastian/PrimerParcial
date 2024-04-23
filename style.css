@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23221f;
+  color: white;
+  height: 100px;
+}
+
+.contenedor {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.contenidoPersonal {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: rgb(68, 56, 245);
+}
+
+.fotoPersonal {
+  height: 600px;
+  margin-right: 50px;
+  margin-left: 70px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-color: black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(235, 232, 232);
+}
+
+footer {
+  height: 100px;
+  background-color: #23221f;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 15px;
+}
+
+.logoUADE {
+  margin-top: 10px;
+  margin-bottom: 0;
+  height: 80px;
+  background-color: white;
+}
+
+@media (max-width: 1330px) {
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    width: auto;
+  }
+  .fotoPersonal {
+    margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+    .fotoPersonal{
+    height: 400px;
+    }
+  }
